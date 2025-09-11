@@ -45,7 +45,7 @@
             bindings = <
 &kp TAB           &kp Q  &kp W  &kp F           &kp P      &kp B        &kp J       &kp L      &kp U          &kp Y       &kp SEMICOLON  &kp BACKSPACE
 &kp LEFT_ALT      &kp A  &kp R  &kp S           &kp T      &kp G        &kp M       &kp N      &kp E          &kp I       &kp O          &kp SINGLE_QUOTE
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp D      &kp V        &kp N       &kp M      &kp COMMA      &kp PERIOD  &kp SLASH      &kp DEL
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp D      &kp V        &kp K       &kp H      &kp COMMA      &kp PERIOD  &kp SLASH      &kp DEL
                                 &kp LEFT_SHIFT  &mo LOWER  &kp SPACE    &kp RETURN  &mo RAISE  &kp RIGHT_GUI
             >;
         };
