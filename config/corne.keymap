@@ -43,10 +43,10 @@
 
         Base_layer {
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp F           &kp P      &kp B        &kp J       &kp L      &kp U          &kp Y       &kp SEMICOLON  &kp BACKSPACE
-&kp LEFT_ALT      &kp A  &kp R  &kp S           &kp T      &kp G        &kp M       &kp N      &kp E          &kp I       &kp O          &kp SINGLE_QUOTE
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp D      &kp V        &kp K       &kp H      &kp COMMA      &kp PERIOD  &kp SLASH      &kp DEL
-                                &kp LEFT_SHIFT  &mo LOWER  &kp SPACE    &kp RETURN  &mo RAISE  &kp RIGHT_GUI
+&kp TAB           &kp Q  &kp W  &kp F  &kp P         &kp B        &kp J       &kp L      &kp U          &kp Y       &kp SEMICOLON  &kp BACKSPACE
+&kp LEFT_CONTROL  &kp A  &kp R  &kp S  &kp T         &kp G        &kp M       &kp N      &kp E          &kp I       &kp O          &kp SINGLE_QUOTE
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C  &kp D         &kp V        &kp K       &kp H      &kp COMMA      &kp PERIOD  &kp SLASH      &kp DEL
+                                &mo 1  &kp LEFT_ALT  &kp SPACE    &kp RETURN  &mo RAISE  &kp RIGHT_GUI
             >;
         };
 
@@ -61,10 +61,10 @@
 
         Raise_layer {
             bindings = <
-&trans  &none  &none  &none   &up_15    &none     &kp HOME     &kp PG_DN          &kp PG_UP        &kp END    &none       &trans
-&trans  &none  &none  &none   &none     &none     &kp LEFT     &kp DOWN           &kp UP           &kp RIGHT  &kp ESCAPE  &none
-&trans  &none  &none  &none   &down_15  &none     &kp K_CMENU  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none      &none       &trans
-                      &trans  &trans    &trans    &trans       &trans             &trans
+&trans  &none  &kp N7        &kp N8        &kp NUMBER_9  &none        &kp HOME     &kp PG_DN          &kp PG_UP        &kp END    &none       &trans
+&trans  &none  &kp NUMBER_4  &kp N5        &kp N6        &none        &kp LEFT     &kp DOWN           &kp UP           &kp RIGHT  &kp ESCAPE  &none
+&trans  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none        &kp K_CMENU  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none      &none       &trans
+                             &trans        &kp N0        &kp MINUS    &trans       &trans             &trans
             >;
         };
 
