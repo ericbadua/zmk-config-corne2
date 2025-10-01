@@ -43,28 +43,28 @@
 
         Base_layer {
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp F  &kp P         &kp B        &kp J       &kp L      &kp U          &kp Y       &kp SEMICOLON  &kp BACKSPACE
-&kp LEFT_CONTROL  &kp A  &kp R  &kp S  &kp T         &kp G        &kp M       &kp N      &kp E          &kp I       &kp O          &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C  &kp D         &kp V        &kp K       &kp H      &kp COMMA      &kp PERIOD  &kp SLASH      &kp DEL
-                                &mo 1  &kp LEFT_ALT  &kp SPACE    &kp RETURN  &mo RAISE  &kp RIGHT_GUI
+&none  &kp Q           &kp W           &kp F               &kp P             &kp B      &kp J       &kp L                &kp U         &kp Y       &kp SEMICOLON  &none
+&none  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G      &kp M       &kp N                &kp E         &kp I       &kp O          &none
+&none  &kp Z           &kp X           &kp C               &kp D             &kp V      &kp K       &kp H                &kp COMMA     &kp PERIOD  &kp SLASH      &none
+                                       &kp ESC             &kp SPACE         &kp TAB    &kp RETURN  &lt RAISE BACKSPACE  &lt 1 DELETE
             >;
         };
 
         Lower_layer {
             bindings = <
-&trans  &kp F1        &kp F2        &kp F3            &kp F4          &kp F5                  &kp F6                 &kp F7           &kp F8             &kp F9        &kp F10       &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4    &kp NUMBER_5            &kp NUMBER_6           &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9  &kp NUMBER_0  &kp BACKSLASH
-&trans  &kp GRAVE     &none         &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp MINUS     &kp EQUAL     &trans
-                                    &trans            &trans          &trans                  &trans                 &trans           &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN    &trans                 &trans           &trans             &trans     &trans     &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp GRAVE  &kp SQT    &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &trans
+                         &trans  &trans  &trans             &trans                 &trans           &trans
             >;
         };
 
         Raise_layer {
             bindings = <
-&trans  &none  &kp N7        &kp N8        &kp NUMBER_9  &none        &kp HOME     &kp PG_DN          &kp PG_UP        &kp END    &none       &trans
-&trans  &none  &kp NUMBER_4  &kp N5        &kp N6        &none        &kp LEFT     &kp DOWN           &kp UP           &kp RIGHT  &kp ESCAPE  &none
-&trans  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none        &kp K_CMENU  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none      &none       &trans
-                             &trans        &kp N0        &kp MINUS    &trans       &trans             &trans
+&trans  &kp LEFT_BRACKET  &kp N7        &kp N8        &kp NUMBER_9  &kp RIGHT_BRACKET       &kp HOME     &kp PG_DN          &kp PG_UP        &kp END    &none       &trans
+&trans  &kp SEMICOLON     &kp NUMBER_4  &kp N5        &kp N6        &kp EQUAL               &kp LEFT     &kp DOWN           &kp UP           &kp RIGHT  &kp ESCAPE  &none
+&trans  &kp COMMA         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NON_US_BACKSLASH    &kp K_CMENU  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none      &none       &trans
+                                        &kp PERIOD    &kp N0        &kp MINUS               &trans       &trans             &trans
             >;
         };
 
@@ -74,6 +74,15 @@
 &trans  &bt BT_SEL 1  &bt BT_SEL 2  &none   &none   &none         &none   &none   &none   &none  &none  &none
 &trans  &bt BT_SEL 3  &bt BT_SEL 4  &none   &none   &bt BT_CLR    &none   &none   &none   &none  &none  &trans
                                     &trans  &trans  &trans        &trans  &trans  &trans
+            >;
+        };
+
+        Function {
+            bindings = <
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN    &none   &trans  &trans  &trans  &trans  &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans             &trans  &trans  &trans
             >;
         };
     };
