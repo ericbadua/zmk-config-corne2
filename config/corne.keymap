@@ -44,7 +44,7 @@
         Base_layer {
             bindings = <
 &none           &kp Q           &kp W           &kp F               &kp P             &kp B      &kp J       &kp L                &kp U                &kp Y            &kp SEMICOLON    &none
-&none           &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G      &kp M       &mt RIGHT_SHIFT N    &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &none
+&none           &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G      &kp M       &mt RIGHT_SHIFT N    &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &none
 &kp LEFT_SHIFT  &kp Z           &kp X           &kp C               &kp D             &kp V      &kp K       &kp H                &kp COMMA            &kp PERIOD       &kp SLASH        &none
                                                 &kp ESC             &kp SPACE         &kp TAB    &kp RETURN  &lt RAISE BACKSPACE  &lt 1 DELETE
             >;
