@@ -57,10 +57,10 @@
 
         Base_layer {
             bindings = <
-&none  &mt LEFT_GUI Q  &kp W           &kp F               &kp P                 &kp B      &kp J       &kp L      &kp U                &kp Y            &mt RIGHT_GUI SEMICOLON  &none
-&none  &kp A           &mt LEFT_ALT R  &mt LEFT_CONTROL S  &kp T                 &kp G      &kp M       &kp N      &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &kp O                    &none
-&none  &kp Z           &kp X           &kp C               &kp D                 &kp V      &kp K       &kp H      &kp COMMA            &kp PERIOD       &kp SLASH                &none
-                                       &lt 2 ESCAPE        &mt LEFT_SHIFT SPACE  &kp TAB    &kp RETURN  &kp SPACE  &lt 1 DELETE
+&none  &mt LEFT_GUI Q  &kp W           &kp F               &kp P                 &kp B        &kp J       &kp L      &kp U                &kp Y            &mt RIGHT_GUI SEMICOLON  &none
+&none  &kp A           &mt LEFT_ALT R  &mt LEFT_CONTROL S  &kp T                 &kp G        &kp M       &kp N      &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &kp O                    &none
+&none  &kp Z           &kp X           &kp C               &kp D                 &kp V        &kp K       &kp H      &kp COMMA            &kp PERIOD       &kp SLASH                &none
+                                       &lt 2 ESCAPE        &mt LEFT_SHIFT SPACE  &lt 5 TAB    &kp RETURN  &kp SPACE  &lt 1 DELETE
             >;
         };
 
@@ -100,12 +100,12 @@
             >;
         };
 
-        Nav {
+        Tab {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans     &trans  &trans      &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp K_CUT  &trans  &trans      &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &kp K_COPY  &trans  &kp K_PASTE    &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans      &trans  &trans         &trans  &trans  &trans
             >;
         };
     };
